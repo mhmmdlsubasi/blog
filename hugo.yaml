@@ -1,4 +1,152 @@
 baseURL: /
-languageCode: en-us
-title: My New Hugo Site
+# languageCode: en-us
+title: Subasi
 theme: PaperMod
+DefaultContentLanguage: tr
+
+minify:
+  disableXML: false
+  minifyOutput: true
+
+languages:
+  tr:
+    languageName: ":tr:"
+    weight: 1
+    params:
+      languageAltTitle: Turkish
+      homeInfoParams:
+        Title: Subaşı'nın Karalama Defteri
+        Content: Meteoroloji, teknoloji ve daha fazlasını keşfedin. Bu blog; çeşitli konularda yazıları, düşünceleri ve keşifleri içeren kişisel bir platformdur. Güncel analizler, veri görselleştirmesi ve teknolojiye dair güncellemeler için beni takip edin!
+  en:
+    languageName: ":gb:"
+    weight: 2
+    params:
+      languageAltTitle: "English"
+      homeInfoParams:
+        Title: Subasi's Scrapbook
+        Content: Explore meteorology, technology and more. This blog is a personal platform for writing, reflection and exploration on a variety of topics. Follow me for up-to-date analysis, data visualization and technology updates!
+  de:
+    languageName: ":de:"
+    weight: 3
+    params:
+      languageAltTitle: Deutsch
+      homeInfoParams:
+        Title: Subasis Sammelalbum
+        Content: Erforschen Sie Meteorologie, Technologie und mehr. Dieser Blog ist eine persönliche Plattform zum Schreiben, Nachdenken und Erforschen einer Vielzahl von Themen. Folgen Sie mir für aktuelle Analysen, Datenvisualisierungen und Technologie-Updates!
+
+menu:
+  main:
+    - identifier: Anasayfa
+      name: Anasayfa
+      url: /
+      weight: 1
+    - identifier: Blog
+      name: Blog
+      url: /posts/
+      weight: 2
+    - identifier: İletişim
+      name: İletişim
+      url: /pages/contact/
+      weight: 3
+    - identifier: Etiketler
+      name: Etiketler
+      url: /tags/
+      weight: 4
+    - identifier: Arşiv
+      name: "Arşiv"
+      url: /archives/
+      weight: 5
+    - identifier: Ara
+      name: "Ara \U0001f50d"
+      url: /search/
+      weight: 6
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  title: "Subaşı’nın Karalama Defteri"
+  description: "Meteoroloji, Teknoloji ve Daha Fazlasını Keşfedin!"
+  keywords: [Meteoroloji, Teknoloji, Veri Görselleştirmesi, Blog, PaperMod]
+  author: mhmmdlsubasi
+  DateFormat: "2 January, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  rss: true
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  tocopen: false
+  ShowToc: true
+  searchHidden: false
+  displayFullLangName: true
+  ShowFullTextinRSS: true
+  enableInlineShortcodes: true
+  enableRobotsTXT: true
+  buildDrafts: false
+  buildFuture: false
+  buildExpired: false
+  enableEmoji: true
+  enableGitInfo: true
+  mainSections: ["posts"]
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/mhmmdlsubasi"
+    - name: email
+      url: "mailto:mhmmdlsubasi@gmail.com"
+    - name: rss
+      url: "https://mhmmdlsubasi.github.io/blog/index.xml"
+    - name: other
+      url: "https://www.youtube.com/watch?v=ct5OucxpuUg"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys:
+      - "title"
+      - "permalink"
+      - "summary"
+      - "content"
+
+  editPost:
+    URL: "https://github.com/mhmmdlsubasi/blog/tree/master/content"
+    # Text: "Suggest Changes"
+    appendFilePath: true
+
+  assets:
+    disableHLJS: true
+    disableFingerprinting: false
+    favicon: "favicons/favicon.ico"
+    favicon16x16:  "favicons/favicon-16x16.png"
+    favicon32x32:  "favicons/favicon-32x32.png"
+    apple_touch_icon:  "favicons/apple-touch-icon.png"
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: false
+    # linkFullImages: false
+
+taxonomies:
+    category: categories
+    tag: tags
+    series: series
