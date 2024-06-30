@@ -64,7 +64,7 @@ menu:
 outputs:
   home:
     - HTML
-    - RSS
+    # - RSS
     - JSON
 
 params:
@@ -72,7 +72,9 @@ params:
   title: "Subaşı’nın Karalama Defteri"
   description: "Meteoroloji, Teknoloji ve Daha Fazlasını Keşfedin!"
   keywords: [Meteoroloji, Teknoloji, Veri Görselleştirmesi, Blog, PaperMod]
-  author: mhmmdlsubasi
+  author:
+   name: mhmmdlsubasi
+   email: mhmmdlsubasi@gmail.com
   DateFormat: "2 January, 2006"
   defaultTheme: auto
   disableThemeToggle: false
@@ -86,7 +88,7 @@ params:
   disableSpecial1stPost: true
   disableScrollToTop: false
   rss: true
-  comments: false
+  comments: true
   hidemeta: false
   hideSummary: false
   tocopen: false
@@ -109,7 +111,7 @@ params:
     - name: email
       url: "mailto:mhmmdlsubasi@gmail.com"
     - name: rss
-      url: "https://mhmmdlsubasi.github.io/blog/index.xml"
+      url: "https://mhmmdlsubasi.github.io/blog/posts/index.xml"
     - name: other
       url: "https://www.youtube.com/watch?v=ct5OucxpuUg"
 
@@ -128,7 +130,7 @@ params:
       - "content"
 
   editPost:
-    URL: "https://github.com/mhmmdlsubasi/blog/tree/master/content"
+    URL: "https://github.com/mhmmdlsubasi/blog/tree/main/content"
     # Text: "Suggest Changes"
     appendFilePath: true
 
@@ -136,9 +138,9 @@ params:
     disableHLJS: true
     disableFingerprinting: false
     favicon: "favicons/favicon.ico"
-    favicon16x16:  "favicons/favicon-16x16.png"
-    favicon32x32:  "favicons/favicon-32x32.png"
-    apple_touch_icon:  "favicons/apple-touch-icon.png"
+    favicon16x16: "favicons/favicon-16x16.png"
+    favicon32x32: "favicons/favicon-32x32.png"
+    apple_touch_icon: "favicons/apple-touch-icon.png"
 
   cover:
     hidden: true
@@ -150,3 +152,9 @@ taxonomies:
     category: categories
     tag: tags
     series: series
+
+services:
+  disqus:
+    shortname: mhmmdlsubasi
+
+googleAnalytics: G-ZM2V4GMWVT
