@@ -1,4 +1,4 @@
-baseURL: /
+baseURL: "https://mhmmdlsubasi-blog.netlify.app/"
 # languageCode: en-us
 title: Subasi
 theme: PaperMod
