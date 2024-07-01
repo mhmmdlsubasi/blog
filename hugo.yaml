@@ -153,8 +153,8 @@ taxonomies:
     tag: tags
     series: series
 
-services:
-  disqus:
-    shortname: mhmmdlsubasi
+# services:
+#   disqus:
+#     shortname: mhmmdlsubasi
 
 googleAnalytics: G-ZM2V4GMWVT
