@@ -20,6 +20,6 @@ collections:
       - {label: "Image", name: "image", widget: "image"}
       - {label: "Image Alt text", name: "imageAlt", widget: "string"}
       - {label: "Image caption", name: "imageCap", widget: "string"}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
+      # - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Tags", name: "tags", widget: "list", summary: "{{fields.tag}}", field: { label: "Tag", name: "tag", widget: "string" }}
       - {label: "Body", name: "body", widget: "markdown"}
