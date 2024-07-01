@@ -1,4 +1,4 @@
-baseURL: "https://mhmmdlsubasi-blog.netlify.app/"
+baseURL: "/"
 # languageCode: en-us
 title: Subasi
 theme: PaperMod
@@ -44,27 +44,27 @@ menu:
       name: Blog
       url: /posts/
       weight: 2
-    - identifier: İletişim
-      name: İletişim
-      url: /pages/contact/
-      weight: 3
     - identifier: Etiketler
       name: Etiketler
       url: /tags/
-      weight: 4
+      weight: 3
     - identifier: Arşiv
       name: "Arşiv"
       url: /archives/
-      weight: 5
+      weight: 4
     - identifier: Ara
       name: "Ara \U0001f50d"
       url: /search/
+      weight: 5
+    - identifier: CMS
+      name: "CMS"
+      url: https://mhmmdlsubasi-blog.netlify.app/admin/
       weight: 6
 
 outputs:
   home:
     - HTML
-    # - RSS
+    - RSS
     - JSON
 
 params:

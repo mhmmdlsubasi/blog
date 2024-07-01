@@ -1,8 +1,8 @@
 [build.environment]
-HUGO_VERSION = "0.126.0"
-DART_SASS_VERSION = "1.77.1"
-TZ = "America/Los_Angeles"
-
+HUGO_VERSION = "0.128.0"
+DART_SASS_VERSION = "1.77.5"
+TZ = "Europe/Istanbul"
+HUGO_BASEURL = "https://mhmmdlsubasi-blog.netlify.app/"
 [build]
 publish = "public"
 command = """\
@@ -10,5 +10,5 @@ command = """\
   tar -xf dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
   rm dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz && \
   export PATH=/opt/build/repo/dart-sass:$PATH && \
-  hugo --gc --minify \
+  hugo --gc --minify --baseURL ${HUGO_BASEURL}\
   """
