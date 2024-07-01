@@ -1,0 +1,15 @@
+content:
+  - name: posts
+    label: Posts
+    type: collection
+    path: content/posts
+    view:
+      fields: [ cover, title, published, date ]
+    fields:
+      - { name: published, label: Published, type: boolean }
+      - { name: title, label: Title, type: string, required: true }
+      - { name: description, label: Description, type: string }
+      - { name: author, label: Author, type: string }
+      - { name: date, label: Date, type: date }
+      - { name: cover, label: Cover image, type: image }
+      - { name: body, label: Body, type: rich-text }
