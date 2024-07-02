@@ -2,7 +2,7 @@
 HUGO_VERSION = "0.128.0"
 DART_SASS_VERSION = "1.77.5"
 TZ = "Europe/Istanbul"
-HUGO_BASEURL = "https://mhmmdlsubasi-blog.netlify.app/"
+HUGO_BASEURL = "https://mhmmdlsubasi.netlify.app/"
 [build]
 publish = "public"
 command = """\
