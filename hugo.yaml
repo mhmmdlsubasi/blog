@@ -17,6 +17,32 @@ languages:
       homeInfoParams:
         Title: Subaşı'nın Karalama Defteri
         Content: Meteoroloji, teknoloji ve daha fazlasını keşfedin. Bu blog; çeşitli konularda yazıları, düşünceleri ve keşifleri içeren kişisel bir platformdur. Güncel analizler, veri görselleştirmesi ve teknolojiye dair güncellemeler için beni takip edin!
+    menu:
+      main:
+      - identifier: blog
+        name: Blog
+        url: /blog/
+        weight: 1
+      - identifier: projects
+        name: Projeler
+        url: /projects/
+        weight: 2
+      - identifier: about
+        name: Hakkında
+        url: pages/aboutme/
+        weight: 3
+      - identifier: contact
+        name: İletişim
+        url: pages/contact/
+        weight: 4
+    params:
+      profileMode:
+        subtitle: "Meteoroloji Mühendisi"
+        buttons:
+          - name: Blog
+            url: "blog"
+          - name: Projeler
+            url: "projects"
   en:
     languageName: ":gb:"
     weight: 2
@@ -25,6 +51,32 @@ languages:
       homeInfoParams:
         Title: Subasi's Scrapbook
         Content: Explore meteorology, technology and more. This blog is a personal platform for writing, reflection and exploration on a variety of topics. Follow me for up-to-date analysis, data visualization and technology updates!
+    menu:
+      main:
+      - identifier: blog
+        name: Blog
+        url: /blog/
+        weight: 1
+      - identifier: projects
+        name: Projects
+        url: /projects/
+        weight: 2
+      - identifier: about
+        name: About
+        url: pages/aboutme/
+        weight: 3
+      - identifier: contact
+        name: Contact
+        url: pages/contact/
+        weight: 4
+    params:
+      profileMode:
+        subtitle: "Meteorology Engineer"
+        buttons:
+          - name: Blog
+            url: "blog"
+          - name: Projects
+            url: "projects"
   de:
     languageName: ":de:"
     weight: 3
@@ -33,33 +85,32 @@ languages:
       homeInfoParams:
         Title: Subasis Sammelalbum
         Content: Erforschen Sie Meteorologie, Technologie und mehr. Dieser Blog ist eine persönliche Plattform zum Schreiben, Nachdenken und Erforschen einer Vielzahl von Themen. Folgen Sie mir für aktuelle Analysen, Datenvisualisierungen und Technologie-Updates!
-
-menu:
-  main:
-    - identifier: Anasayfa
-      name: Anasayfa
-      url: /
-      weight: 1
-    - identifier: Blog
-      name: Blog
-      url: /posts/
-      weight: 2
-    - identifier: Etiketler
-      name: Etiketler
-      url: /tags/
-      weight: 3
-    - identifier: Arşiv
-      name: "Arşiv"
-      url: /archives/
-      weight: 4
-    - identifier: Ara
-      name: "Ara \U0001f50d"
-      url: /search/
-      weight: 5
-    - identifier: CMS
-      name: "CMS"
-      url: https://mhmmdlsubasi-blog.netlify.app/admin/
-      weight: 6
+    menu:
+      main:
+      - identifier: blog
+        name: Blog
+        url: /blog/
+        weight: 1
+      - identifier: projects
+        name: Projekte
+        url: /projects/
+        weight: 2
+      - identifier: about
+        name: Über
+        url: pages/aboutme/
+        weight: 3
+      - identifier: contact
+        name: Kontakt
+        url: pages/contact/
+        weight: 4
+    params:
+      profileMode:
+        subtitle: "Meteorologischer Ingenieur"
+        buttons:
+          - name: Blog
+            url: "blog"
+          - name: Projekte
+            url: "projects"
 
 outputs:
   home:
@@ -68,6 +119,15 @@ outputs:
     - JSON
 
 params:
+  profileMode:
+      enabled: true
+      title: "Muhammed Ali Subaşı" # optional default will be site title
+      subtitle: "Meteoroloji Mühendisi"
+      imageUrl: "https://media.licdn.com/dms/image/D4D35AQF_TOGdlAjfHw/profile-framedphoto-shrink_200_200/0/1713658862833?e=1720501200&v=beta&t=X-7Jm62N3lzJ16pUHoFq16FrxaeUpNlXU6IpPxiNDKQ" # optional
+      imageTitle: "My Profile Photo" # optional
+      imageWidth: 300 # custom size
+      imageHeight: 300 # custom size
+
   env: production
   title: "Subaşı’nın Karalama Defteri"
   description: "Meteoroloji, Teknoloji ve Daha Fazlasını Keşfedin!"
@@ -103,17 +163,16 @@ params:
   buildExpired: false
   enableEmoji: true
   enableGitInfo: true
-  mainSections: ["posts"]
 
   socialIcons:
+    - name: x
+      url: "https://x.com/mhmmdlsubasi"
     - name: github
       url: "https://github.com/mhmmdlsubasi"
     - name: email
       url: "mailto:mhmmdlsubasi@gmail.com"
     - name: rss
-      url: "https://mhmmdlsubasi.github.io/blog/posts/index.xml"
-    - name: other
-      url: "https://www.youtube.com/watch?v=ct5OucxpuUg"
+      url: "https://mhmmdlsubasi.github.io/index.xml"
 
   fuseOpts:
     isCaseSensitive: false
@@ -130,7 +189,7 @@ params:
       - "content"
 
   editPost:
-    URL: "https://github.com/mhmmdlsubasi/blog/tree/main/content"
+    URL: "https://github.com/mhmmdlsubasi/mhmmdlsubasi.github.io/tree/main/content"
     # Text: "Suggest Changes"
     appendFilePath: true
 
