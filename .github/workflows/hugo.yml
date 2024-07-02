@@ -48,8 +48,6 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
-      - name: Create CNAME file
-        run: echo "subasi.is-a.dev" > public/CNAME
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
@@ -59,6 +57,8 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Create CNAME file
+        run: echo "subasi.is-a.dev" > public/CNAME
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
