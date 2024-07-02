@@ -121,9 +121,9 @@ outputs:
 params:
   profileMode:
       enabled: true
-      title: "Muhammed Ali Subaşı" # optional default will be site title
+      title: "Muhammed Ali Subaşı"
       subtitle: "Meteoroloji Mühendisi"
-      imageUrl: "https://media.licdn.com/dms/image/D4D35AQF_TOGdlAjfHw/profile-framedphoto-shrink_200_200/0/1713658862833?e=1720501200&v=beta&t=X-7Jm62N3lzJ16pUHoFq16FrxaeUpNlXU6IpPxiNDKQ" # optional
+      imageUrl: "images/avatar.jpg"
       imageTitle: "My Profile Photo" # optional
       imageWidth: 300 # custom size
       imageHeight: 300 # custom size
