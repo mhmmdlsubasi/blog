@@ -58,9 +58,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Create CNAME file
-        run: echo "subasi.is-a.dev" > public/CNAME
+            --baseURL "https://subasi.is-a.dev/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

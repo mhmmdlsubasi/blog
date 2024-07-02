@@ -3,10 +3,36 @@ baseURL: "/"
 title: Subasi
 theme: PaperMod
 DefaultContentLanguage: tr
+paginate: 5
 
 minify:
   disableXML: false
   minifyOutput: true
+
+imaging:
+  resampleFilter: Linear
+  #resampleFilter: MitchellNetravali (Cubic filter for alternative)
+  hint: picture
+  exif:
+    disableDate: true
+    disableLatLong: true
+    excludeFields: ".*"
+
+frontmatter:
+  date:
+  - date
+  - publishDate
+  - lastmod
+  expiryDate:
+  - expiryDate
+  lastmod:
+  - lastmod
+  - :git
+  - date
+  - publishDate
+  publishDate:
+  - publishDate
+  - date
 
 languages:
   tr:
@@ -114,11 +140,12 @@ languages:
 
 outputs:
   home:
-    - HTML
-    - RSS
-    - JSON
+   - HTML
+   - RSS
+   - JSON
 
 params:
+  # mainSections: blog/
   profileMode:
       enabled: true
       title: "Muhammed Ali Subaşı"
