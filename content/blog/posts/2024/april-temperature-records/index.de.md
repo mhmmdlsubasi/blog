@@ -2,6 +2,7 @@
 title: Temperaturrekorde im April!
 date: 2024-05-01T00:00:00.000Z
 tags: ["Datensatz"]
+categories: ["Meteorologie"]
 cover:
  image: cover.jpg
 description: "Die extreme Hitzewelle, die in der letzten Aprilwoche in der Türkei herrschte, führte dazu, dass 15 Provinzzentren die Rekorde für die höchste Temperatur im April brachen. Alte Temperaturrekorde wurden gebrochen und neue Temperaturrekorde wurden in Provinzen wie Kayseri, Çorum und Sivas aufgestellt. Hier sind die Einzelheiten..."

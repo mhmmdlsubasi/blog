@@ -2,6 +2,7 @@
 title: Temperature Records in April!
 date: 2024-05-01T00:00:00.000Z
 tags: ["Record"]
+categories: ["Meteorology"]
 cover:
  image: cover.jpg
 description: "The extreme heat wave, which was effective in the last week of April in Turkey, led to the highest temperature records for April being broken in 15 provincial centers. In provinces such as Kayseri, Çorum and Sivas, old temperature records were broken and new temperature records were set. Here are the details..."

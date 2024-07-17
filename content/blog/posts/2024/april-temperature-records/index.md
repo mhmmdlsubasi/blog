@@ -2,6 +2,7 @@
 title: Nisan Ayında Sıcaklık Rekorları!
 date: 2024-05-01T00:00:00.000Z
 tags: ["Rekor"]
+categories: ["Meteoroloji"]
 cover:
   image: cover.jpg
 description: "Türkiye'nin nisan ayının son haftasında etkili olan ekstrem sıcak hava dalgası, 15 il merkezinde nisan ayı en yüksek sıcaklık rekorlarının egale edilmesine yol açtı. Kayseri, Çorum, Sivas gibi illerde eski sıcaklık rekorları kırıldı ve yeni sıcaklık rekorları belirlendi. İşte detaylar..."
