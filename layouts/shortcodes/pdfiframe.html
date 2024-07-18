@@ -1,0 +1,7 @@
+{{ $src := .Get "src" }}
+{{ $width := .Get "width" | default "100%" }}
+{{ $height := .Get "height" | default "600px" }}
+
+<iframe src="{{ $src }}" width="{{ $width }}" height="{{ $height }}" style="border: none;">
+    Bu tarayıcı PDF görüntülemeyi desteklemiyor. PDF dosyasını indirmek için <a href="{{ $src }}">buraya tıklayın</a>.
+</iframe>

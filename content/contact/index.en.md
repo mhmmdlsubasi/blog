@@ -1,31 +1,33 @@
 ---
-title: "Kontakt"
-description: "Sie können diese Seite nutzen, um mit mir Kontakt aufzunehmen."
+title: "Contact"
+description: "You can use this page to contact me."
 hidemeta: true
 disableShare: true
 searchHidden: true
 ShowPostNavLinks: false
+comments: false
 ---
 
-## Kontaktinformationen
+## Contact Information
 
-Hallo! Wenn Sie mit mir Kontakt aufnehmen möchten, können Sie die folgenden Informationen verwenden:
+Hello! If you would like to contact me, you can use the information below:
 
-### Email
+#### Email
 
 - **Gmail:** [mhmmdlsubasi@gmail.com](mailto:mhmmdlsubasi@gmail.com)
 - **Outlook:** [mhmmdlsubasi@outlook.com](mailto:mhmmdlsubasi@outlook.com)
 
-### Soziale Medien
+### Social Media
 
 - **GitHub:** [mhmmdlsubasi](https://github.com/mhmmdlsubasi)
 - **LinkedIn:** [Muhammed Ali Subasi](https://www.linkedin.com/in/mhmmdlsubasi/)
 - **Twitter:** [@mhmmdlsubasi](https://twitter.com/mhmmdlsubasi)
 
-### Physische Adresse
+### Physical Address
 
-Yunus Emre Nachbarschaft
-Straße der Meteorologie
-Osmaniye Meteorologisches Direktorat
-Zentrum/Osmaniye
+Yunus Emre Mahallesi
+Meteorology Street
+Osmaniye Meteorology Directorate
+Center/Osmaniye
+
 

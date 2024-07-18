@@ -30,4 +30,4 @@ Hier sind die rekordverdächtigen Provinzen:
 | Ardahan | 25,0| 27.04.2008 | 25,0 | 29.04.2024 | 0,0 |
 | Bayburt | 25,3| 24.04.2008 | 27,1 | 30.04.2024 | 1,8 |
 
-Diese Analyse wurde anhand der [Tabelle der höchsten Temperaturen](https://mgm.gov.tr/sondurum/en-yuksek-sicakliklar.aspx) und der [statistischen Daten für die Provinzen der Türkei](https://mgm.gov.tr/veridegerlendirme/il-ve-ilceler-istatistik.aspx?k=A) durchgeführt, die täglich auf der Website der Generaldirektion für Meteorologie (MGM) veröffentlicht werden. Wenn Sie glauben, dass ein Fehler vorliegt, wenden Sie sich bitte an [contact](https://mhmmdlsubasi.github.io/contact).
+> Diese Analyse wurde anhand der [Tabelle der höchsten Temperaturen](https://mgm.gov.tr/sondurum/en-yuksek-sicakliklar.aspx) und der [statistischen Daten für die Provinzen der Türkei](https://mgm.gov.tr/veridegerlendirme/il-ve-ilceler-istatistik.aspx?k=A) durchgeführt, die täglich auf der Website der Generaldirektion für Meteorologie (MGM) veröffentlicht werden. Wenn Sie glauben, dass ein Fehler vorliegt, wenden Sie sich bitte an [contact](https://mhmmdlsubasi.github.io/contact).

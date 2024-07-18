@@ -30,4 +30,4 @@ Here are those record-breaking provinces:
 | Ardahan | 25,0| 27.04.2008 | 25,0 | 29.04.2024 | 0,0 |
 | Bayburt | 25,3| 24.04.2008 | 27,1 | 30.04.2024 | 1,8 |
 
-This analysis was carried out using the [table of highest temperatures](https://mgm.gov.tr/sondurum/en-yuksek-sicakliklar.aspx) and [statistical data for Turkey's provinces](https://mgm.gov.tr/veridegerlendirme/il-ve-ilceler-istatistik.aspx?k=A) published daily on the website of the General Directorate of Meteorology (MGM). If you think there is an error, please [contact](https://mhmmdlsubasi.github.io/contact).
+> This analysis was carried out using the [table of highest temperatures](https://mgm.gov.tr/sondurum/en-yuksek-sicakliklar.aspx) and [statistical data for Turkey's provinces](https://mgm.gov.tr/veridegerlendirme/il-ve-ilceler-istatistik.aspx?k=A) published daily on the website of the General Directorate of Meteorology (MGM). If you think there is an error, please [contact](https://mhmmdlsubasi.github.io/contact).

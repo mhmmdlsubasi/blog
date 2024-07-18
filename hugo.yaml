@@ -17,6 +17,7 @@ imaging:
     disableDate: true
     disableLatLong: true
     excludeFields: ".*"
+    #includeFields: "" (To improve performance and decrease cache size, we need to set neither excludeFields nor includeFields)
 
 frontmatter:
   date:
@@ -47,28 +48,66 @@ languages:
       main:
       - identifier: blog
         name: Blog
-        url: /blog/
+        url: "/blog/"
         weight: 1
+      - parent: "blog"
+        identifier: "blog-archives"
+        name: "Arşiv"
+        url: "/blog/archives/"
+        weight: 1
+      - parent: "blog"
+        identifier: "blog-categories"
+        name: "Kategoriler"
+        url: "/blog/categories/"
+        weight: 2
+      - parent: "blog"
+        identifier: "blog-tags"
+        name: "Etiketler"
+        url: "/blog/tags/"
+        weight: 3
+
       - identifier: projects
         name: Projeler
-        url: /projects/
+        url: "/projects/"
         weight: 2
+      - parent: "projects"
+        identifier: "projects-archives"
+        name: "Arşiv"
+        url: "/projects/archives/"
+        weight: 1
+      - parent: "projects"
+        identifier: "projects-categories"
+        name: "Kategoriler"
+        url: "/projects/categories/"
+        weight: 2
+      - parent: "projects"
+        identifier: "projects-tags"
+        name: "Etiketler"
+        url: "/projects/tags/"
+        weight: 3
+
       - identifier: about
         name: Hakkında
-        url: pages/aboutme/
+        url: "/about/"
         weight: 3
       - identifier: contact
         name: İletişim
-        url: pages/contact/
+        url: "/contact/"
         weight: 4
+      - identifier: search
+        name: "Arama \U0001f50d"
+        url: "/search/"
+        weight: 5
+
     params:
       profileMode:
         subtitle: "Meteoroloji Mühendisi"
         buttons:
-          - name: Blog
-            url: "blog"
-          - name: Projeler
-            url: "projects"
+          # - name: Blog
+          #   url: "blog"
+          # - name: Projeler
+          #   url: "projects"
+
   en:
     languageName: ":gb:"
     weight: 2
@@ -81,28 +120,64 @@ languages:
       main:
       - identifier: blog
         name: Blog
-        url: /blog/
+        url: "/blog/"
         weight: 1
+      - parent: "blog"
+        identifier: "blog-archives"
+        name: "Archive"
+        url: "/blog/archives/"
+        weight: 1
+      - parent: "blog"
+        identifier: "blog-categories"
+        name: "Categories"
+        url: "/blog/categories/"
+        weight: 2
+      - parent: "blog"
+        identifier: "blog-tags"
+        name: "Tags"
+        url: "/blog/tags/"
+        weight: 3
+
       - identifier: projects
         name: Projects
-        url: /projects/
+        url: "/projects/"
         weight: 2
+      - parent: "projects"
+        identifier: "projects-archives"
+        name: "Archive"
+        url: "/projects/archives/"
+        weight: 1
+      - parent: "projects"
+        identifier: "projects-categories"
+        name: "Categories"
+        url: "/projects/categories/"
+        weight: 2
+      - parent: "projects"
+        identifier: "projects-tags"
+        name: "Tags"
+        url: "/projects/tags/"
+        weight: 3
+
       - identifier: about
         name: About
-        url: pages/aboutme/
+        url: "/about/"
         weight: 3
       - identifier: contact
         name: Contact
-        url: pages/contact/
+        url: "/contact/"
         weight: 4
+      - identifier: search
+        name: "Search \U0001f50d"
+        url: "/search/"
+        weight: 5
     params:
       profileMode:
         subtitle: "Meteorology Engineer"
         buttons:
-          - name: Blog
-            url: "blog"
-          - name: Projects
-            url: "projects"
+          # - name: Blog
+          #   url: "blog"
+          # - name: Projects
+          #   url: "projects"
   de:
     languageName: ":de:"
     weight: 3
@@ -115,28 +190,65 @@ languages:
       main:
       - identifier: blog
         name: Blog
-        url: /blog/
+        url: "/blog/"
         weight: 1
+      - parent: "blog"
+        identifier: "blog-archives"
+        name: "Archiv"
+        url: "/blog/archives/"
+        weight: 1
+      - parent: "blog"
+        identifier: "blog-categories"
+        name: "Kategorien"
+        url: "/blog/categories/"
+        weight: 2
+      - parent: "blog"
+        identifier: "blog-tags"
+        name: "Tags"
+        url: "/blog/tags/"
+        weight: 3
+
       - identifier: projects
         name: Projekte
-        url: /projects/
+        url: "/projects/"
         weight: 2
+      - parent: "projects"
+        identifier: "projects-archives"
+        name: "Archiv"
+        url: "/projects/archives/"
+        weight: 1
+      - parent: "projects"
+        identifier: "projects-categories"
+        name: "Kategorien"
+        url: "/projects/categories/"
+        weight: 2
+      - parent: "projects"
+        identifier: "projects-tags"
+        name: "Tags"
+        url: "/projects/tags/"
+        weight: 3
+
       - identifier: about
         name: Über
-        url: pages/aboutme/
+        url: "/about/"
         weight: 3
       - identifier: contact
         name: Kontakt
-        url: pages/contact/
+        url: "/contact/"
         weight: 4
+      - identifier: search
+        name: "Suche \U0001f50d"
+        url: "/search/"
+        weight: 5
+
     params:
       profileMode:
         subtitle: "Meteorologischer Ingenieur"
         buttons:
-          - name: Blog
-            url: "blog"
-          - name: Projekte
-            url: "projects"
+          # - name: Blog
+          #   url: "blog"
+          # - name: Projekte
+          #   url: "projects"
 
 outputs:
   home:
@@ -154,6 +266,7 @@ params:
       imageTitle: "My Profile Photo" # optional
       imageWidth: 300 # custom size
       imageHeight: 300 # custom size
+      indexPostContentFile: "/home"
 
   env: production
   title: "Subaşı’nın Karalama Defteri"
@@ -192,8 +305,10 @@ params:
   enableGitInfo: true
 
   socialIcons:
-    - name: x
-      url: "https://x.com/mhmmdlsubasi"
+    - name: cv
+      url: "/cv.pdf"
+    - name: linkedin
+      url: "https://linkedin.com/in/mhmmdlsubasi"
     - name: github
       url: "https://github.com/mhmmdlsubasi"
     - name: email
@@ -235,9 +350,14 @@ params:
     # linkFullImages: false
 
 taxonomies:
-    category: categories
-    tag: tags
-    series: series
+  category: categories
+  tag: tags
+  # series: series
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
 
 # services:
 #   disqus:

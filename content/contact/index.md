@@ -5,6 +5,7 @@ hidemeta: true
 disableShare: true
 searchHidden: true
 ShowPostNavLinks: false
+comments: false
 ---
 
 ## İletişim Bilgileri

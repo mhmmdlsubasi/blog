@@ -6,6 +6,7 @@ disableShare: true
 searchHidden: true
 ShowPostNavLinks: false
 showToc: false
+comments: false
 ---
 
 ## Merhaba!

@@ -30,4 +30,5 @@ draft: false
 | Ardahan    | 25,0| 27.04.2008 | 25,0 | 29.04.2024 | 0,0 |
 | Bayburt    | 25,3| 24.04.2008 | 27,1 | 30.04.2024 | 1,8 |
 
-Bu analiz, Meteoroloji Genel Müdürlüğü (MGM) web sitesinde günlük olarak yayınlanan [en yüksek sıcaklıklar tablosu](https://mgm.gov.tr/sondurum/en-yuksek-sicakliklar.aspx) ve [Türkiye'nin illerine ait istatistiki veriler](https://mgm.gov.tr/veridegerlendirme/il-ve-ilceler-istatistik.aspx?k=A) kullanılarak gerçekleştirilmiştir. Bir hata olduğunu düşünüyorsanız, lütfen bizimle [iletişime geçin](https://mhmmdlsubasi.github.io/contact).
+> Bu analiz, Meteoroloji Genel Müdürlüğü (MGM) web sitesinde günlük olarak yayınlanan [en yüksek sıcaklıklar tablosu](https://mgm.gov.tr/sondurum/en-yuksek-sicakliklar.aspx) ve [Türkiye'nin illerine ait istatistiki veriler](https://mgm.gov.tr/veridegerlendirme/il-ve-ilceler-istatistik.aspx?k=A) kullanılarak gerçekleştirilmiştir. Bir hata olduğunu düşünüyorsanız, lütfen bizimle [iletişime geçin](https://mhmmdlsubasi.github.io/contact).
+
