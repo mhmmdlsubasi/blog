@@ -1,0 +1,11 @@
+{{ $user := .Get "user" }}
+{{ $repo := .Get "repo" }}
+<!-- <p><a href="https://github.com/{{ $user }}/{{ $repo }}"><img src="https://gh-card.dev/repos/{{ $user }}/{{ $repo }}.svg" alt="github repository {{ $repo }} miniature from the user {{ $user }}" style="max-width: 100%;" /></a></p> -->
+
+<div class="github-card-container">
+    <div class="github-card">
+        <a href="https://github.com/{{ $user }}/{{ $repo }}">
+            <img src="https://gh-card.dev/repos/{{ $user }}/{{ $repo }}.svg" alt="GitHub repository {{ $repo }} miniature from the user {{ $user }}" />
+        </a>
+    </div>
+</div>

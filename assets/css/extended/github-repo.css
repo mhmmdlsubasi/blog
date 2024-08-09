@@ -1,0 +1,8 @@
+.github-card-container {
+    text-align: center; /* Kartı yatayda ortalar */
+}
+
+.github-card-container img {
+    display: inline-block; /* Kartın kendi boyutunu almasını sağlar */
+}
+
