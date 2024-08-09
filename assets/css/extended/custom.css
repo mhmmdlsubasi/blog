@@ -35,7 +35,7 @@
 
 @media screen and (min-width: 430px) and (max-width: 620px) {
   .lang-switch {
-    display: none;
+    display: block;
   }
   #menu {
     --gap: calc(3vw);
@@ -51,7 +51,7 @@
     justify-content: center;
   }
   .lang-switch {
-    display: none;
+    display: block;
   }
   .post-content p, .post-content li, .post-content table, .entry-content, #text {
     font-size: calc(4px + 2.5vw);
@@ -113,7 +113,7 @@
     justify-content: center;
   }
   .lang-switch {
-    display: none;
+    display: block;
   }
   .post-content p, .post-content li, .post-content table, .entry-content, #text {
     font-size: calc(6px + 2vw);
